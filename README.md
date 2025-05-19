@@ -15,8 +15,6 @@ A Task Management System built with the MERN stack and MySQL that supports role-
 - 👨‍💼 HR/Managers can assign tasks to employees
 - 📅 Set Deadlines and Priorities
 - 📌 Task Status: Pending, Completed
-- 📊 Dashboard with Status Summary
-- 🔔 Notifications on Task Updates
 - 📱 Responsive UI for all devices
 
 ---
@@ -40,32 +38,33 @@ A Task Management System built with the MERN stack and MySQL that supports role-
 | HR       | Assign tasks, update tasks, view employees’ tasks       |
 | Employee |  Assign tasks junior,View assigned tasks, update task status|
 
-🧪 Steps to Run the Project Locally
+
+#🧪 Steps to Run the Project Locally
 Follow these steps to get the full-stack application up and running on your local machine:
 
-###🔧 1. Clone the Repository
+#🔧 1. Clone the Repository
 ``` base
 git clone https://github.com/yourusername/task-management-system.git
 cd task-management-system
 ```
-###⚙️ 2. Set Up the Backend
+#⚙️ 2. Set Up the Backend
 ``` base
 cd backend
 npm install
 node index.js
 ```
-###🖥️ 3. Set Up the Frontend
+#🖥️ 3. Set Up the Frontend
 ```base
 cd frontend
 npm install
 npm start
 ```
 
-###This will start the React app on http://localhost:3000.
+#This will start the React app on http://localhost:3000.
 
-### 🗄️ 4. Set Up the Database
-Open MySQL or any SQL client.
-Create a new database
+#🗄️ 4. Set Up the Database
+Open MySQL or any SQL client.<br>
+Create a new database<br>
 Import the provided SQL schema from backend/employ.sql.
 
 
